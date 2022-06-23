@@ -985,4 +985,7 @@ top:60%;
     font-size: 14px;
     margin-top: 10px;
 }
+.navbar.navbar-default .navbar-toggle {
+  margin-top: 15px;
+}
 }
