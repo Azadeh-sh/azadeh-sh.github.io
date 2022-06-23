@@ -412,7 +412,7 @@ ul.nostyle i {
   border-radius: 0 4px 4px 0;
 }
 #portfolio .portfolio-items {
-  margin: -15px;
+  margin: 0;
 }
 #portfolio .portfolio-item {
   width: 24.9%;
@@ -943,4 +943,46 @@ address {
 }
 .btn {
 	font-size:12px;
+}
+@media (max-width:991px){
+	#portfolio .portfolio-item {
+  width:31%;
+  float: left;
+  text-align:center;
+  margin:1%;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+}
+#portfolio .portfolio-item .portfolio-item-inner .portfolio-info .preview {
+top:60%;
+}
+}
+@media (max-width:768px){
+	#portfolio .portfolio-item {
+  width:45%;
+  float: left;
+  text-align:center;
+  margin:2%;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+}
+#portfolio .portfolio-item .portfolio-item-inner .portfolio-info .preview {
+    top:60%;
+    right: 39%;
+}
+#portfolio .portfolio-item .portfolio-item-inner .portfolio-info p{
+	display:none;
+}
+#portfolio .portfolio-item .portfolio-item-inner .portfolio-info h3 {
+    font-size: 14px;
+    margin-top: 10px;
+}
 }
