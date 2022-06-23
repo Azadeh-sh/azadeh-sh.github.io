@@ -172,3 +172,4 @@ div.dark_rounded #pp_full_res .pp_inline,div.dark_square #pp_full_res .pp_inline
 	div.pp_overlay{background:#000;display:none;left:0;position:fixed;top:0;width:100%!important;height:100%!important;z-index:9500}
 div.pp_pic_holder{display:none;position:fixed!important;width:100px;z-index:10000;top:30%!important;}
 }
+.pp_expand{display:none !important;}
