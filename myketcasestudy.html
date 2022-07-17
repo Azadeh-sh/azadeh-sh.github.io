@@ -19,6 +19,12 @@
           width: 100%;
         }
       }
+	  @media (max-width:991px) {
+        .d-flex {
+          display:block!important;
+        }
+      }
+	  
     </style>
   </head>
   <body>
@@ -54,8 +60,11 @@
               <div class="portfolio-info">
                 <h3>Project information</h3>
                 <ul>
+				<li>
+                    <strong>Subject</strong>: Developer Panel Dashboard Redesign
+                  </li>
                   <li>
-                    <strong>Category</strong>:Redesign
+                    <strong>My Role</strong>: UX Research, Visual and UI Design 
                   </li>
                   <li>
                     <strong>Client</strong>: Myket Appstore
@@ -71,9 +80,8 @@
             </div>
             <div class="col-lg-8">
               <div class="portfolio-description">
-                <h2>Developer Panel Dashboard Redesign</h2>
-                <p> Redesigning how developers access and analyze their apps and how can we make it effective and friendly for them.</p>
-                <p>Our data shows that most of the users have just one or two apps or just some of them have data and usage and they want to have a brief report of their apps also they have to cruise on the menu to find more repetitive action buttons.</p>
+                <h2>Overview</h2>
+				<p>Myket is an android appstore and developers publish their apps on it. As for appstore one of the most important part is developers who publish their app on it. Myket support team was really busy with so many calls and unsatisfied developers. So for the first step they asked for finding the problem and reduce the calls.
               </div>
             </div>
           </div>
@@ -84,11 +92,56 @@
               <div class="portfolio-description">
                 <br>
                 <br>
-                <h2>Talking to users</h2>
-                <p>To understand the case better, I talked to the support team who had a direct connection with developers, and also talked to different developers. By doing this I captured how they use the dashboard too and what value they took from it and what actions they looked for.</p>
-                <figure class="figure d-block">
-                  <img src="assets/img/portfolio/talk.jpg" class="figure-img rounded mx-auto d-block" alt="talk">
+				<h2> Gathering Data </h2>
+				<p>I gathered some information about developers from google analyics, database and data analysists</p>
+				<h2>Competitive Analysis</h2>
+				<p>
+				I researched similar 5 AppStores in the market. It allowed me to identify their Strengths and opportunities for my project too.
+				</p>
+				<br><br>
+				<div class="d-flex">
+				<div class="col-sm-6 col-xs-12 p-2">
+				 <figure class="figure d-block">
+                  <img src="assets/img/portfolio/gp.jpg" class="img-rounded img-fluid">
+                  <figcaption class="figure-caption text-center">Google Play</figcaption>
                 </figure>
+				
+				</div>
+				<div class="col-sm-6 col-xs-12 p-2">
+				 <figure class="figure d-block">
+                  <img src="assets/img/portfolio/bazaar.png" class="img-rounded img-fluid">
+                  <figcaption class="figure-caption text-center">Cafe Bazar</figcaption>
+                </figure>
+				
+				</div>
+				</div>
+				<br><br>
+                <h2>Talking to Support team and interview developers</h2>
+                <p>To understand the case better, I talked to the support team who had a direct connection with developers, and also interviewd with different developers. By doing this I captured how they use the dashboard too and what value they took from it and what actions they looked for.</p>
+				<br><br>
+			   <figure class="figure d-block">
+                  <img src="assets/img/portfolio/talk.jpg" class="figure-img rounded mx-auto d-block" alt="talk">
+				  <caption>
+                </figure>
+				<br><br>
+                <h2>Persona</h2>
+                <p>Based on the research I created user personas to create clean picture of developer's goals, needs and behaviour.</p>
+				<br><br>
+				<div class="d-flex">
+				<div class="col-sm-6 col-xs-12 p-2">
+				 <figure class="figure d-block">
+                  <img src="assets/img/portfolio/persona1.jpg" class="img-rounded img-fluid">
+                </figure>
+				
+				</div>
+				<div class="col-sm-6 col-xs-12 p-2">
+				 <figure class="figure d-block">
+                  <img src="assets/img/portfolio/persona2.jpg" class="img-rounded img-fluid">
+                </figure>
+				
+				</div>
+				</div>
+				
                 <p> I listed some of their problems: </p>
                 <ul>
                   <li> They want to see insights on the dashboard </li>
@@ -96,64 +149,84 @@
                   <li> they have different experience in other similar panels and they didn't know how to use this one </li>
                   <li> they need to access support, guides ,and knowledgebase for publishing or writing their apps </li>
                 </ul>
-               
                 <br>
                 <br>
-                <figure class="figure d-block">
-                  <img src="assets/img/portfolio/olddashboard.jpg" class="figure-img rounded mx-auto d-block" alt="olddashboard">
-                  <figcaption class="figure-caption text-center">Myket's dashboard old look</figcaption>
-                </figure>
-                <br>
-                <br>
-                <p>I noticed that there was a lack of priority in presenting information, and new developers' data was different from the one who had apps so they should see the different dashboard for the first time and before publishing the app, also there wasn't a consistency between their application (that developers apps published on) and their dashboard.</p>
-                <p>I looked at their application and its features and also I looked at other popular panels such as google play to research what an effective and friendly dashboard is and I reached to:
-                </p>
+                <p class="fw-bold">HMW</p>
+                <p>I made HMW questions to talk to support team and our developer team about the problem and find better ideas</p>
                 <ul>
-                  <li> structured and consistent navigation </li>
-                  <li> showing app insights </li>
-                  <li> showing useful actions and information shortcuts </li>
+                  <li> How might we help developers to publish their apps on myket easily? </li>
+                  <li> How might we reduce clicks to reach developers actions? </li>
+                  <li> How might we make users informed of all they needs to not need calling support? </li>
                 </ul>
                 <br>
                 <br>
-                <h2> Objective and Questions </h2>
-                <p>I determined that our main objective is to increase developers' activity. so I start with some "How might We" questions:</p>
-                <ul>
-                  <li> How might we create a better experience for new developers to publish an app? </li>
-                  <li> How might we engage them to do more activities? </li>
-                  <li> How might we reduce calling support team? </li>
-                </ul>
-                <p> I realized that developers needed more details on how many times their app was downloaded or bought and also how could they customize their code to show on the AppStore. </p>
-                <br>
-                <br>
-                <h2> The Redesign Process </h2>
-                <p class="fw-bold">Card Sorting</p>
-                <p> We did brainstorm and card sorting with the support team and some of the developers to see what should be removed or added </p>
+				 <p class="fw-bold">Card Sorting</p>
+                <p> I did closed cardsorting to found out what should be shown on dashboard. I made three categories:"frequently used","sometime used" and "never used" and " on the cards and asked developers to put their actions in each group</p>
                 <figure class="figure d-block">
                   <img src="assets/img/portfolio/card.jpg" class="figure-img rounded mx-auto d-block" alt="card">
                 </figure>
-                <p class="fw-bold">Prototype and Feedback</p>
-				<p>
-				I designed a simple overview to get feedback, I asked the support team and our developers, and colleagues, to use it and I got their feedback then I asked some of our developer users to give me their feedback too My purpose was to estimate the result and discovering potential of satisfaction or any simple improvements that could be executed.
-				</p>
-                <br>
-                <br>
-                <h2> The MVP </h2>
-                <p> after launching it for 10% of users I checked the result again and it showed that it worked well so I started doing other improvements.. </p>
+				<h2>WireFrame</h2>
+				<p>Based on the information I Sketched Wireframes and show them to support team and five developers to gather their ideas before prototype
+				<br><br>
+				 <figure class="figure d-block">
+                  <img src="assets/img/portfolio/wireframe.jpg" class="img-fluid rounded mx-auto d-block">
+                </figure>
+				
+				<h2>Protorype</h2>
+				I asked some of developers to test the prototype. I asked them some tasks such as add new program or tell me their apps sale to capture their actions, also asked them about their likes or dislikes.
+                <p>By testing the prototype I noticed that there wasn't a consistency between their application (that developers apps published on) and their dashboard. I reached to:
+                </p>
                 <ul>
-                  <li> Improve icons and make a consistency between menu icons and app icons </li>
-                  <li> Improve actionability </li>
+                  <li> structured and consistent navigation </li>
+                  <li> Similar icons and colors </li>
                 </ul>
+               
                 <br>
                 <br>
+                <h2>IconGraphy And Color </h2>               
+                <p>
+				I designed icons and colors in the way to be consistent with the appstore that developers to felt the familier environment
+                <br>
+                <br>
+				<div class="d-flex">
+				<div class="col col-sm-6">
                 <figure class="figure d-block">
-                  <img src="assets/img/portfolio/newdashboard.png" class="figure-img rounded mx-auto d-block" alt="newdashboard" style="border:1px solid #e2e2e2">
+                  <img src="assets/img/portfolio/icons.jpg" class="img-fluid rounded mx-auto d-block p-3" alt="icons">
+                </figure>
+				</div>
+				<div class="col col-sm-6">
+				<figure class="figure d-block">
+                  <img src="assets/img/portfolio/colors.jpg" class="img-fluid rounded mx-auto d-block p-3" alt="colors">
+                </figure>
+				</div>
+				</div>
+				
+                <br>
+				<h2> FinalShowcase</h2>
+                <br>
+                <br>
+				<div class="d-flex">
+				<div class="col-sm-6">
+                <figure class="figure d-block">
+                  <img src="assets/img/portfolio/newdashboard.png" class="img-fluid rounded mx-auto d-block p-3" alt="newdashboard" style="border:1px solid #e2e2e2">
                   <figcaption class="figure-caption text-center">New designed dashboard</figcaption>
                 </figure>
+				</div>
+				<div class="col-sm-6">
+				<figure class="figure d-block">
+                  <img src="assets/img/portfolio/olddashboard.jpg" class="img-fluid rounded mx-auto d-block p-3" alt="olddashboard">
+                  <figcaption class="figure-caption text-center">Myket's dashboard old look</figcaption>
+                </figure>
+				</div>
+                <br>
+                <br>
+				</div>
                 <br>
                 <br>
                 <br>
-<p>				Finally, we launched the new dashboard and we received the developer's satisfaction. so we went to the next step to redesign the app list and ticketing parts too.</p>
-              </div>
+				<div>
+				<iframe src="assets/img/portfolio/video.mp4" style="width:100%; height:350px"></iframe>
+				 </div>
             </div>
           </div>
         </div>
