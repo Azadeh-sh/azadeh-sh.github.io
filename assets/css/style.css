@@ -10,9 +10,13 @@ a {
   color: #f9128c;
   text-decoration: none;
 }
-
+.navbar a:hover{
+	color:#b41f6c;
+	text-decoration: none;
+	background:transparent;
+}
 a:hover {
-  color: #b72170;
+  color: #b41f6c;
   text-decoration: none;
 }
 
@@ -736,4 +740,9 @@ section {
     margin-top: 30px;
     color: #fff;
     background: #870047;
+}
+.btn-more:hover{
+  color: #ffffff;
+  text-decoration: none;
+  background: #b41f6c;
 }
