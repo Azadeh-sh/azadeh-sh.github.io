@@ -132,17 +132,17 @@ h1, h2, h3, h4, h5, h6 {
 #header .logo img {
   max-height: 40px;
 }
-#header .typo{
-	color:#440230;
-	font-size:15px;
-	font-weight:bold;
+#header a .typo{
+	color:#440230 !important;
+	font-size:15px !important;
+	font-weight:bold !important;
 }
 @media (max-width: 992px) {
   #header .logo {
     font-size: 28px;
   }
-	#header .typo{
-		display:none;
+	#header a .typo{
+		display:none !important;
 	}
 }
 
