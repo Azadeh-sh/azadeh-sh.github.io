@@ -556,6 +556,11 @@ section {
 /*--------------------------------------------------------------
 # Portfolio
 --------------------------------------------------------------*/
+.typo{
+	color:#440230;
+	font-size:15px;
+	font-weight:bold;
+}
 .portfolio .portfolio-item {
   margin-bottom: 30px;
 }
